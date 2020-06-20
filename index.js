@@ -6,6 +6,7 @@
  */
 exports.helloWorld = (req, res) => {
     console.log(req.body);
+    console.log("Triggered!!!!!!");
     res.status(200).send();
   };
   
